@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button
+            android:text="Go to pick up "
+            android:layout_width="180dp"
+            android:layout_height="85dp"
+            android:id="@+id/button3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="220dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse"
+            android:onClick="GoBack" android:textAlignment="center"
+            android:layout_alignParentTop="true"
+    />
+    <TextView
+            android:text="Oh, my! So sexy! You have perfect body!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView9"
+            android:layout_alignParentTop="@+id/button3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="120dp"
+            android:textAppearance="@style/TextAppearance.Design.Counter"
+            android:fontFamily="serif-monospace" android:textSize="24sp" android:textAlignment="center">
+    </TextView>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/normal"
+            android:id="@+id/imageView3"
+            android:layout_below="@+id/textView9"
+            android:layout_marginTop = "180dp"
+    />
+
+</RelativeLayout>
